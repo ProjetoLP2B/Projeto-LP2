@@ -1,0 +1,53 @@
+Anotaçoes feitas por: Caio Rezende Fernandes de oliveira
+
+Anotaçoes sobre as telas enviadas pelo grupo de Front End e Integraçao
+
+
+Anotaçoes de erros e possiveis mudanças que possam precisar ser implementadas no programa:
+
+-ja que ainda nao é possivel cadastrar nenhum usuario seria bom colocar um aviso de "opçao desabilitada" para o botao Cadastrar ter alguma funçao e
+poder retornar para a tela de login -- [ADICIONADA LABEL ABAIXO DO BOTÃO 'CADASTRAR']
+
+-O batão SAIR da tela de cadastro fecha o programa inteiro,ao inves disso seria bom se o botao SAIR tivesse a funçao de voltar para a tela de login 
+ou entao em vez de trocar a funçao do botao sair poderia ser criado um botao que volte pra tela de login. -- [O BOTÃO 'SAIR' AGORA VOLTA PARA A TELA DE LOGIN]
+
+-O Botao Fechar(x) da janela cadastro esta fechando a janela porem quando essa e fechada o programa ainda continua em execuçao porem não aparece nenhuma
+tela. Seria bom dar a esse botao a funçao de retornar a tela de login ou encerrar completamente a execuçao do programa e nao so a execuçao da tela 
+cadastro +++
+
+-Seria bom na tela de login inserir as opçoes "Esqueci meu login" e "Esqueci minha senha".
+
+-seria bom separar as mensagens de erro quando sao inseridos usuarios e senhas erradas para que o cliente do programa saiba qual
+esta errado, para isso é recomendado colocar o aviso de erro de usuario em baixo do campo de usuario e colocar o aviso de erro de
+senha em baixo do campo de senha.
+
+-O botao Remover da janela Novos_Projetos possui um erro na parte de console++++++
+
+-O campo Nome do Projeto na janela nao esta ligado as propriedades, ou seja cada propriedade so pode ser selecionada uma 
+vez, mesmo que os projetos possuam nomes diferentes. +++
+
+-É recomendavel colocar uma verificaçao para o nome do projeto da janela Novos_projetos.
+
+-É recomendavel mostrar alem do ID e da Propriedade, o nome do projeto que esta sendo inserido.[ADICIONADO CAMPO 'NOME']
+
+-É preciso colocar um botao voltar na tela Novos_projetos pois a mesma só possui um botao fechar(x) que finaliza o 
+progama inteiro, sendo assim toda vez que é acessado essa tela é preciso fechar e abrir denovo o programa. -- [BOTÃO 'VOLTAR' ADICIONADO]
+
+-O botao deletar da janela Controle e Vizualizaçao Tipo ainda nao faz nada, seria interessante implementar uma janela 
+para esse botao, que possui-se campos onde o usuario pudesse inserir dados do que ele deseja deletar. 
+
+-Seria aconcelhavel mudar a funçao do Sair por esse esta fazendo a mesma funçao do botao fechar(X), uma funçao que se 
+pode atribuir a esse botao seria a funçao de fechar a janela Controle e Vizualizaçao Tipo e retornar para a tela
+Atividades_Usuarios.		-- [O BOTÃO 'SAIR' AGORA RETORNA PARA TELA CONTROLE E VISUALIZAÇÃO TIPO]
+
+-rever o nome das colunas da tabela da janela Controle e Vizualizaçao Tipo pois nao batem com os dados pedidos na janela Cadastro de Indicador
+colunas(Id,nome,tipo,descricao) adicionar(codigo,nome,descricao,observaçao). ++++++++++++++++++
+
+-rever o nome das colunas da tabela da janela Controle e Vizualizaçao pois nao batem com os dados pedidos na janela Cadastro de Item Indicador.
+colunas(Id,nome,descricao) adicionar(Cadastro de Item indicador)(tipo,codigo,nome,descricao,observaçao).
+
+-O Botao selecionar da janela Controle e Vizualizaçao so funciona depois que o usuario acessa o botao realaçao. ++++++++++
+
+-O Botão Sair da janela Controle e Vizualização retorna para a janela Atividades_Usuarios , porem quando se acessa o botao relaçao e acessa o botao 
+sair da tabela Controle e Vizualização ele muda de funçao e finaliza o programa ao invez de retornar para a janela Atividades_Usuarios. -- [RESOLVIDO]
+

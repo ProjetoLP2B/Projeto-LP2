@@ -1,0 +1,5 @@
+Abra o powerShell
+digite cd c:\\caminhoDaPasta
+Unblock-File *
+
+Pronto

@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F6D3D8A5-D9A3-4105-8F55-1BEDE223F48A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Projeto_LP2</RootNamespace>
+    <AssemblyName>Projeto_LP2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>4D3A7B353F6123B5CC153739BE789207585E1198</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Projeto_LP2_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Atividades Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atividades Usuarios.Designer.cs">
+      <DependentUpon>Atividades Usuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cadastro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastro.Designer.cs">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadIndicadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadIndicadores.Designer.cs">
+      <DependentUpon>CadIndicadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CadItemIndicador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadItemIndicador.Designer.cs">
+      <DependentUpon>CadItemIndicador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controle e Visualização com Tipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controle e Visualização com Tipo.Designer.cs">
+      <DependentUpon>Controle e Visualização com Tipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controle e Visualização.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controle e Visualização.Designer.cs">
+      <DependentUpon>Controle e Visualização.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarIndicadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarIndicadores.Designer.cs">
+      <DependentUpon>EditarIndicadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditarItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarItem.Designer.cs">
+      <DependentUpon>EditarItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Indicadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Indicadores.Designer.cs">
+      <DependentUpon>Indicadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ItemIndicador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItemIndicador.Designer.cs">
+      <DependentUpon>ItemIndicador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nova Relação Entre Indicadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nova Relação Entre Indicadores.Designer.cs">
+      <DependentUpon>Nova Relação Entre Indicadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nova Relação Entre Itens Indicadores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nova Relação Entre Itens Indicadores.Designer.cs">
+      <DependentUpon>Nova Relação Entre Itens Indicadores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NovosProjetos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NovosProjetos.Designer.cs">
+      <DependentUpon>NovosProjetos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Relação_item_indicador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Relação_item_indicador.Designer.cs">
+      <DependentUpon>Relação_item_indicador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelecionarIndicador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelecionarIndicador.Designer.cs">
+      <DependentUpon>SelecionarIndicador.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Atividades Usuarios.resx">
+      <DependentUpon>Atividades Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastro.resx">
+      <DependentUpon>Cadastro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadIndicadores.resx">
+      <DependentUpon>CadIndicadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadItemIndicador.resx">
+      <DependentUpon>CadItemIndicador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controle e Visualização com Tipo.resx">
+      <DependentUpon>Controle e Visualização com Tipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controle e Visualização.resx">
+      <DependentUpon>Controle e Visualização.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarIndicadores.resx">
+      <DependentUpon>EditarIndicadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditarItem.resx">
+      <DependentUpon>EditarItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Indicadores.resx">
+      <DependentUpon>Indicadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItemIndicador.resx">
+      <DependentUpon>ItemIndicador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nova Relação Entre Indicadores.resx">
+      <DependentUpon>Nova Relação Entre Indicadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nova Relação Entre Itens Indicadores.resx">
+      <DependentUpon>Nova Relação Entre Itens Indicadores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NovosProjetos.resx">
+      <DependentUpon>NovosProjetos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Relação_item_indicador.resx">
+      <DependentUpon>Relação_item_indicador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelecionarIndicador.resx">
+      <DependentUpon>SelecionarIndicador.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Projeto_LP2_TemporaryKey.pfx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
